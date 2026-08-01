@@ -1,0 +1,8 @@
+<h1>Django Image Uploading</h1>
+<ul>
+  {% for post in sadatotazok %}
+    {% csrf_token %}
+    <h2>{{ post.title }} "Vyber mozost:" {{ post.choices_title.1 }} {{ post.choices_title.2 }}</h2>
+    <img src="{{ '/media/'|add:post.cover }}" alt="{{ post.title }}" width="300" height="300">
+  {% endfor %}
+</ul>

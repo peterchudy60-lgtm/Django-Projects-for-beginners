@@ -1,0 +1,2 @@
+#Prvy stlpec je otazka a za nou nasleduje:
+Who is known as the father of Computer?:Alan Turing;Charles Babbage;John von Neumann;Ada Lovelace:Charles Babbage

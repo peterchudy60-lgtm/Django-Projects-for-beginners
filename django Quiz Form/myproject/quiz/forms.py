@@ -42,7 +42,7 @@ class QuizForm(forms.Form):
             'choices': [('a', '2'), ('b', '3'), ('c', '4'), ('d', '5')]
         },
         10: {
-            'label': "What software company is headquartered in Redmond, Washington?", 
+            'label': "xxx What software company is headquartered in Redmond, Washington?", 
             'choices': [('a', 'Apple'), ('b', 'Google'), ('c', 'Microsoft'), ('d', 'Amazon')]
         }
     }

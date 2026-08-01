@@ -1,0 +1,11 @@
+<h1>Django Image Uploading</h1>
+<ul>
+  {% for post in sadatotazok %}
+    <input type="radio" name="choice" id="{{ post.choices_title.1 }}" value="{{ post.choices_title.1 }}">
+    <label for="{{ post.choices_title.1 }}">{{ post.choices_title.1 }}</label>
+    <input type="radio" name="choice" id="{{ post.choices_title.2 }}" value="{{ post.choices_title.2 }}">
+    <label for="{{ post.choices_title.2 }}">{{ post.choices_title.2 }}</label>
+    <img src="{{ '/media/'|add:post.cover }}" alt="{{ post.title }}" width="300" height="300">
+  {% endfor %}
+</ul>
+<input type="submit" value="Posli odpoved">

@@ -1,0 +1,8 @@
+{{ xxx }}
+<form class="form-inline" method='POST' action="" enctype='multipart/form-data'>
+    {% csrf_token %}
+    {{ form.cleaned_data.status }}
+    {{ form.as_p }}
+    <input type="submit" value="Vyhodnotit odpoved!">
+</form>
+

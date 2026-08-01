@@ -1,0 +1,40 @@
+1: {
+    'label': "Who is known as the father of Computer?", 
+    'choices': [('a', 'Alan Turing'), ('b', 'Charles Babbage'), ('c', 'Joh
+},
+2: {
+    'label': "Who is the author of 'Pride and Prejudice'?", 
+    'choices': [('a', 'Emily Brontë'), ('b', 'Charles Dickens'), ('c', 'Ja
+},
+3: {
+    'label': "What character have both Robert Downey Jr. and Benedict Cumb
+    'choices': [('a', 'Iron Man'), ('b', 'Sherlock Holmes'), ('c', 'Dr. St
+},
+4: {
+    'label': "Which planet in the Milky Way is the hottest?", 
+    'choices': [('a', 'Venus'), ('b', 'Mars'), ('c', 'Saturn'), ('d', 'Jup
+},
+5: {
+    'label': "What city is known as The Eternal City?", 
+    'choices': [('a', 'Athens'), ('b', 'Rome'), ('c', 'Paris'), ('d', 'Cai
+},
+6: {
+    'label': "Who discovered that the earth revolves around the sun?", 
+    'choices': [('a', 'Galileo Galilei'), ('b', 'Isaac Newton'), ('c', 'Ni
+},
+7: {
+    'label': "What sports car company manufactures the 911?", 
+    'choices': [('a', 'Ferrari'), ('b', 'Lamborgini'), ('c', 'Porsche'), (
+},
+8: {
+    'label': "Which planet has the most moons?", 
+    'choices': [('a', 'Venus'), ('b', 'Mars'), ('c', 'Saturn'), ('d', 'Jup
+},
+9: {
+    'label': "How many bones do we have in an ear?", 
+    'choices': [('a', '2'), ('b', '3'), ('c', '4'), ('d', '5')]
+},
+10: {
+    'label': "xxx What software company is headquartered in Redmond, Washi
+    'choices': [('a', 'Apple'), ('b', 'Google'), ('c', 'Microsoft'), ('d',
+}
