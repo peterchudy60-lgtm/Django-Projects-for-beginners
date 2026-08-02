@@ -56,8 +56,8 @@ def status_view(request):
     else:
         current_question = request.session.get('current_question', 1)  # Initialize current question
         form = StatusForm(current_question=current_question)
-        print(f"Selected statusGET:", current_question, form)  # You can process the selected value as needed
+        print(f"Selected statusGET:", current_question)  # You can process the selected value as needed
         template = loader.get_template('status_form.html')
 #        return django.shortcuts.render(request, "status_form.html", {"form": form})
-        return HttpResponse(template.render({"form": form,"xxx": current_question}, request))
+        return HttpResponse(template.render({"form": form, "current_question": current_question}, request))
     
